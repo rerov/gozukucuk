@@ -66,7 +66,7 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  border-right: 1px solid var(--gray);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
 
 }
 
@@ -145,7 +145,7 @@
 .bannerButton a {
   background: transparent;
   border: 3px solid var(--white);
-  padding: 18px 24px;
+  padding: 18px 30px;
   color: var(--white);
   transition: ease-in-out;
   transition: 0.5s;
@@ -156,4 +156,42 @@
 .bannerButton a:hover {
   background-color: var(--white);
   color: var(--darkblue);
+}
+
+.container {
+  margin-top: 150px;
+  text-align: center;
+  color: var(--gray);
+}
+
+.container .baslik h4 {
+  font-style: italic;
+  font-weight: normal;
+
+}
+
+.fotoGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* İki sütunlu grid */
+  gap: 50px;
+  /* Fotoğraflar arasındaki boşluk */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.02);
+  cursor: pointer;
+}
+
+.foto img {
+  max-width: 100%;
+  height: auto;
 }
