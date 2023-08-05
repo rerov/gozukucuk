@@ -148,6 +148,28 @@ export default function Home() {
       </div>
       <div className={styles.container}>
         <div className={styles.baslik}>
+          <h2>SELECT INDUSTRY</h2>
+          <h4>We operate across specialized industries</h4>
+        </div>
+
+        <div className={styles.fotoGrid}>
+          <div className={styles.foto}>
+            <img src="/img/machine.jpg" alt="Fotoğraf 1" />
+            <a href='#'>
+              Machine
+            </a>
+          </div>
+          <div className={styles.foto}>
+            <img src="/img/electric.jpg" alt="Fotoğraf 2" />
+            <a href='#'>
+              Electric & Electronic
+            </a>
+          </div>
+
+        </div>
+      </div>
+      <div style={{ marginTop: '50px' }} className={styles.container}>
+        <div className={styles.baslik}>
           <h2>PRECISION ENGINEERING SOLUTIONS</h2>
           <h4>Advancing Production with Cutting-Edge <br /> CNC & CMM Technologies</h4>
         </div>

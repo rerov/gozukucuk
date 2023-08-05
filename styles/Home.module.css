@@ -159,7 +159,7 @@
 }
 
 .container {
-  margin-top: 150px;
+  margin-top: 170px;
   text-align: center;
   color: var(--gray);
 }
@@ -183,12 +183,17 @@
 
 .foto {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  gap: 20px;
   padding: 10px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.02);
   cursor: pointer;
+}
+
+.foto a {
+  font-weight: normal;
+  font-size: 20px;
 }
 
 .foto img {
@@ -266,7 +271,7 @@
 
 .closeButton {
   position: absolute;
-
+  padding: 15px 20px;
   z-index: 1005;
   color: white;
   justify-content: right !important;
