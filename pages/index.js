@@ -184,6 +184,21 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div style={{ marginTop: '50px' }} className={styles.container}>
+        <div className={styles.baslik}>
+          <h2>WHO WE ARE</h2>
+          <h4>Watch Our Presentation Video</h4>
+        </div>
+
+        <div className={styles.presentationVideo}>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/eCQftjhehro?start=10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen autoPlay></iframe>
+          
+        </div>
+
+
+
+      </div>
+
 
       <style jsx global>{`
         html,

@@ -176,7 +176,7 @@
   /* İki sütunlu grid */
   gap: 50px;
   /* Fotoğraflar arasındaki boşluk */
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 20px;
 }
@@ -281,4 +281,9 @@
 
 .closeButton a {
   color: white !important
+}
+
+.presentationVideo iframe {
+  width: 80%;
+  height: 700px;
 }
