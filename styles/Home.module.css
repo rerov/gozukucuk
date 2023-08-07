@@ -283,7 +283,55 @@
   color: white !important
 }
 
-.presentationVideo iframe {
+.presentationVideo {
   width: 80%;
+  margin: auto;
+
+}
+
+.presentationVideo iframe {
+  width: 100%;
   height: 700px;
+}
+
+.whoweare {
+  display: flex;
+  flex-direction: row;
+  padding: 40px 0;
+  align-items: center;
+
+
+}
+
+.whoweare .paragraph {
+  width: 50%;
+  text-align: left;
+  color: var(--paragraph);
+  font-size: 16px;
+  line-height: 2rem;
+}
+
+.whoweareright {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.whoweareright div {
+  display: flex;
+  flex-direction: column;
+}
+
+.bigTextWhoWeAre {
+  font-weight: bold;
+  font-size: 70px;
+  color: var(--darkblue);
+
+}
+
+.smallTextWhoWeAre {
+  font-size: 19px;
+  color: var(--paragraph)
 }
