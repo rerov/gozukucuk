@@ -197,7 +197,9 @@ export default function Home() {
               Established in 1980, Gözüküçük Machinery combines its expertise in machining and engineering to offer services in the field. Our company operates in a 2000m2 closed area in Kayseri, equipped with CNC machining centers, CMM measurement machines, and various complementary equipment. We provide services for both domestic and international sectors, including Machinery, Electrical Electronics, and Rail Systems.
               <br></br><br></br>
               With our experienced staff, we manufacture metal and non-metal parts, machinery and equipment, components, and spare parts to the desired standards, ensuring high precision. In the sectors we serve, we prioritize planning, production, and quality control at every stage, from raw material selection to the delivery of the final product, in accordance with the precision of the parts produced based on demand.
-              <br></br><a style={{ color: 'var(--darkblue)' }} href='#'> Read more...</a>
+              <br></br><br></br>
+              We have proven our capability and competence, providing services to numerous international companies as well. <br></br>
+              <a style={{ color: 'var(--darkblue)' }} href='#'> Read more...</a>
             </p>
 
             <div className={styles.whoweareright}>
