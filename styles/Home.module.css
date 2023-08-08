@@ -335,3 +335,37 @@
   font-size: 19px;
   color: var(--paragraph)
 }
+
+.topFooter {
+  margin-top: 100px;
+  background-color: #F5F5FA;
+  width: 100%;
+
+  color: var(--darkblue);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 2.5rem;
+  padding: 100px 10%;
+  height: 500px;
+
+}
+
+.topFooter iframe {
+  border: 0;
+  width: 100%;
+  height: 250px;
+}
+
+.topFooter div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bottomFooter {
+  background-color: #F5F5FA;
+  padding: 15px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  text-align: center;
+  font-size: 12px;
+}
