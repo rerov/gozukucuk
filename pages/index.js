@@ -120,9 +120,9 @@ export default function Home() {
             <div className={styles.rightMenu}>
               <ul>
                 <li><a href='#'>NEWS</a></li>
-                <li><a href='#'>CONTACT</a></li>
-                <li><a href='#'>CASES</a></li>
-                <li><a href='#'>BLOGS</a></li>
+                <li><a href='#'>CERTIFICATION</a></li>
+                <li><a href='#'>REFERENCES</a></li>
+
                 <li><a href='#'>GET CONTACTED</a></li>
               </ul>
               <div onClick={() => setOpen(true)} className={styles.sideMenu}>
