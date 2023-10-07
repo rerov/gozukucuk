@@ -33,19 +33,19 @@ export default function Header({ open, setOpen }) {
                 </a>
                 <ul>
                   <li>
-                    <a href="#">CNC Machining</a>
+                    <a href="/cncmachining">CNC Machining</a>
                   </li>
                   <li>
-                    <a href="#">CAD CAM</a>
+                    <a href="/cadcam">CAD CAM</a>
                   </li>
                   <li>
-                    <a href="#">Subcontracting</a>
+                    <a href="/subcontracting">Subcontracting</a>
                   </li>
                   <li>
-                    <a href="#">Finishing</a>
+                    <a href="/finishing">Finishing</a>
                   </li>
                   <li>
-                    <a href="#">Pack & Ship</a>
+                    <a href="/packandship">Pack & Ship</a>
                   </li>
                 </ul>
               </div>
@@ -164,9 +164,11 @@ export default function Header({ open, setOpen }) {
         </div>
       </div>
       <div className={styles.headerMenu}>
-        <div className={styles.logo}>
-          <img src="/img/logo_home.gif"></img>
-        </div>
+        <a href="/">
+          <div className={styles.logo}>
+            <img src="/img/logo_home.gif"></img>
+          </div>
+        </a>
         <div className={styles.rightMenu}>
           <ul>
             <li>
