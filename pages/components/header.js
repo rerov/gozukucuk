@@ -66,19 +66,19 @@ export default function Header({ open, setOpen }) {
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Industry</a>
+                    <a href="/industry">Industry</a>
                   </li>
                   <li>
-                    <a href="#">Machinery</a>
+                    <a href="/machinery">Machinery</a>
                   </li>
                   <li>
-                    <a href="#">Medical</a>
+                    <a href="/medical">Medical</a>
                   </li>
                   <li>
-                    <a href="#">Railways</a>
+                    <a href="/railway">Railways</a>
                   </li>
                   <li>
-                    <a href="#">Other</a>
+                    <a href="/other">Other</a>
                   </li>
                 </ul>
               </div>
@@ -99,13 +99,13 @@ export default function Header({ open, setOpen }) {
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Certification</a>
+                    <a href="/certification">Certification</a>
                   </li>
                   <li>
-                    <a href="#">Measuring Lab</a>
+                    <a href="/measuringlab">Measuring Lab</a>
                   </li>
                   <li>
-                    <a href="#">Quality Control</a>
+                    <a href="/qualitycontrol">Quality Control</a>
                   </li>
                 </ul>
               </div>
